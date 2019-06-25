@@ -18,4 +18,7 @@ print("\n\nPeople in Space: ", helmetson['number'])
 people = helmetson['people']
 print(people)
 
+print("\n\nProple in Space: ", helmetson['number'])
+for item in people:
+    print( item['name'],"on the",item['craft'] )
 

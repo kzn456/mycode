@@ -1,0 +1,7 @@
+---
+- name: Alta3 Research
+  host: all
+  apps:
+          - htop
+          - sshd
+          - iptables

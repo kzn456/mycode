@@ -10,6 +10,7 @@ def main():
     switch['lync'] = '1.1.1.1'
     ## request a 'fake' key
     print( switch['lync'])
+    print(switch.get("hughes"))
 
 main()
 
